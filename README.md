@@ -1,51 +1,30 @@
-# NEU Library Visitor Log
+# 📚 NEU Library Visitor Log
 
-This is a React app for logging visitors to the NEU Library with **Google Authentication** and **role-based access**.
+A full-stack web application built with **React** and **Firebase** to manage and track visitor entries at the New Era University Library.
 
-## Live App
-[https://YOUR-FIREBASE-APP-LINK.web.app](https://YOUR-FIREBASE-APP-LINK.web.app)
+## 🔗 Live Demo
+**Link:** [https://neu-library-log-94622.web.app/](https://neu-library-log-94622.web.app/)
 
-## Features
-- Login with **Google** (only NEU account allowed)
-- Role-Based Access: switch between **User** and **Admin**
-- Visitor logging with:
-  - Reason for visit
-  - College
-  - Employee status (teacher/staff)
-- Admin Dashboard:
-  - View visitor statistics (total, filtered)
-  - Filter by reason, college, and employee
-  - Display statistics in cards
+## 🚀 Key Features
+- **NEU Email Authentication:** Restricted to `@neu.edu.ph` accounts using Google OAuth.
+- **Role-Based Access:** Separate interfaces for Users (Logging) and Admins (Analytics).
+- **Admin Dashboard:** - Real-time statistics cards (Total Visits, Unique Visitors).
+  - Advanced filtering by College (CCS, CBA, etc.) and Reason for Visit.
+  - Identification of Employee vs. Student ratios.
 
-## Test Account
-**Email:** jcesperanza@neu.edu.ph
+## 🔑 Test Account (Admin)
+To test the admin features, use the following credentials:
+- **Email:** `jcesperanza@neu.edu.ph`
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm run build`
-Builds the app for production in the `build` folder.  
-Ready for deployment.
-
-### `npm test`
-Launches the test runner in interactive watch mode.
-
-### `npm run eject`
-Removes the single build dependency and copies configuration files so you can fully customize. **Note: this is one-way!**
-
-## Deployment
-
-This app is deployed using **Firebase Hosting**.  
-Make sure to update the `Live App` link above with your Firebase Hosting URL.
+## 🛠️ Tech Stack
+- **Frontend:** React.js, CSS3 (Minimalist UI)
+- **Backend/Database:** Firebase Firestore
+- **Hosting:** Firebase Hosting
+- **Auth:** Firebase Authentication (Google Provider)
 
 ---
 
-**Security / Defense Tip:**  
-- Uses **Google OAuth** for authentication  
-- Only allows `@neu.edu.ph` emails  
-- Role-based authorization controlled with Firestore flags
+### How to Run Locally
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to view at `http://localhost:3000`.
