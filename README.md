@@ -15,6 +15,7 @@ A full-stack web application built with **React** and **Firebase** to manage and
 ## 🔑 Test Account (Admin)
 To test the admin features, use the following credentials:
 - **Email:** `jcesperanza@neu.edu.ph`
+- **Password** 'neu12345'
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, CSS3 (Minimalist UI)
